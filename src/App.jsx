@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import confetti from 'canvas-confetti';
 import './App.css';
-import TaskItem from './components/TaskItem';
+import TaskItem from '../src/Components/TaskItem.jsx';
 
 function App() {
   const [newTask, setNewTask] = useState("");
